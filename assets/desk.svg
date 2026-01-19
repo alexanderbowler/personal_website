@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#f3efe6" />
+  <rect x="80" y="90" width="640" height="320" fill="#e6dccf" stroke="#b7ad9f" stroke-width="6" />
+  <rect x="130" y="140" width="250" height="180" fill="#fefcf8" stroke="#b7ad9f" stroke-width="4" />
+  <rect x="420" y="140" width="250" height="180" fill="#fefcf8" stroke="#b7ad9f" stroke-width="4" />
+  <rect x="120" y="355" width="560" height="30" fill="#c8bca9" />
+  <text x="150" y="240" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="28" fill="#2a4d69">Research Desk</text>
+  <text x="440" y="240" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="26" fill="#2a4d69">Design Notes</text>
+</svg>
