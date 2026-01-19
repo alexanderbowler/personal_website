@@ -1,10 +1,10 @@
 :root {
   color-scheme: light;
-  --bg: #f6f3ed;
-  --ink: #1a1a1a;
-  --muted: #555;
-  --rule: #c9c2b6;
-  --accent: #2a4d69;
+  --bg: #f2f4f7;
+  --ink: #121417;
+  --muted: #4a4f56;
+  --rule: #c3c9d1;
+  --accent: #2f4b66;
 }
 
 * {
@@ -28,7 +28,7 @@ main {
 
 header {
   border-bottom: 1px solid var(--rule);
-  background: #efe9df;
+  background: #e6eaf0;
 }
 
 header .wrap {
@@ -96,12 +96,20 @@ nav span {
   margin: 18px 0 22px;
   border: 1px solid var(--rule);
   padding: 10px;
-  background: #fefcf8;
+  background: #f8f9fb;
 }
 
 .figure img {
   width: 100%;
   display: block;
+}
+
+.headshot-inline {
+  width: 25%;
+  max-width: 140px;
+  height: auto;
+  float: right;
+  margin: 0 0 10px 14px;
 }
 
 .two-col {
@@ -130,7 +138,7 @@ nav span {
 .card {
   border: 1px solid var(--rule);
   padding: 12px;
-  background: #fefcf8;
+  background: #f8f9fb;
 }
 
 footer {

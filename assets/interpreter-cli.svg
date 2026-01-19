@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
+  <rect width="800" height="500" fill="#eef1f5" />
+  <rect x="80" y="110" width="640" height="280" fill="#f8f9fb" stroke="#9aa3ad" stroke-width="6" />
+  <rect x="100" y="140" width="600" height="50" fill="#d7dde6" />
+  <rect x="110" y="210" width="540" height="34" fill="#e7ebf1" />
+  <rect x="110" y="260" width="500" height="34" fill="#e7ebf1" />
+  <rect x="110" y="310" width="420" height="34" fill="#e7ebf1" />
+  <text x="130" y="175" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="24" fill="#2f4b66">$ run interpreter --file program.int</text>
+  <text x="130" y="235" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#4a4f56">Parsing tokens...</text>
+  <text x="130" y="285" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#4a4f56">Executing bytecode...</text>
+  <text x="130" y="335" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#4a4f56">Output: 42</text>
+  <text x="110" y="420" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#4a4f56">Command-line workflow sketch</text>
+</svg>

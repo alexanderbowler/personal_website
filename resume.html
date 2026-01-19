@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Alex Bowler | Resume</title>
+  <title>Alexander Bowler | Resume</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
   <header>
     <div class="wrap">
       <h1>Resume</h1>
-      <div class="section-note">Remove or revise any placeholder details before publishing.</div>
+      <div class="section-note">Alexander Bowler · University of Michigan · Ann Arbor, MI</div>
       <nav>
         <a href="index.html">About</a>
         <span>/</span>
@@ -18,11 +18,11 @@
         <span>/</span>
         <a href="projects/index.html">Projects</a>
         <span>/</span>
-        <a href="projects/project-archive.html">Project: Archive Viewer</a>
+        <a href="projects/project-gpt2.html">Project: GPT-2 124M</a>
         <span>/</span>
-        <a href="projects/project-lab.html">Project: Usability Lab</a>
+        <a href="projects/project-traffic.html">Project: Traffic Signs</a>
         <span>/</span>
-        <a href="projects/project-flow.html">Project: Workflow Studio</a>
+        <a href="projects/project-backprop.html">Project: Interpreter</a>
       </nav>
     </div>
   </header>
@@ -31,79 +31,92 @@
     <section>
       <h2>Summary</h2>
       <p>
-        Product and UX-focused builder with experience across research, interface design, and front-end
-        delivery. Known for making complex systems readable and building tools that stay stable under
-        real-world use.
+        Computer science student focused on robotics, controls, and machine learning. Experienced in
+        simulation-driven testing, perception pipelines, and large-scale model training.
+      </p>
+      <p class="section-note">
+        <a href="https://github.com/alexanderbowler">github.com/alexanderbowler</a> ·
+        <a href="https://linkedin.com/in/albowler">linkedin.com/in/albowler</a>
       </p>
     </section>
 
     <section>
       <h2>Education</h2>
-      <h3>University Name — B.S. in Human-Computer Interaction</h3>
-      <p class="section-note">Graduation year | GPA (optional) | Relevant coursework</p>
+      <h3>University of Michigan — BSE in Computer Science</h3>
+      <p class="section-note">Aug 2022 – May 2026 · Ann Arbor, MI · GPA: 4.0/4.0</p>
       <ul class="list-tight">
-        <li>Interaction design, user research methods, information visualization</li>
-        <li>Web development, design systems, accessibility and inclusive design</li>
+        <li>Machine Learning, Robot Control, Reinforcement Learning</li>
+        <li>Operating Systems, GPU Programming</li>
       </ul>
     </section>
 
     <section>
       <h2>Experience</h2>
-      <h3>Product Design Intern — Company Name</h3>
-      <p class="section-note">May 2024 – Aug 2024</p>
+      <p>
+        Internship details available upon request.
+      </p>
+    </section>
+
+    <section>
+      <h2>Organizations</h2>
+      <h3>Michigan Robotic Submarine Team — Software Lead</h3>
+      <p class="section-note">Aug 2023 – Present</p>
       <ul class="list-tight">
-        <li>Mapped a complex onboarding flow into a single-page checklist, reducing user confusion.</li>
-        <li>Built a UI audit and component inventory to align engineering and design teams.</li>
-        <li>Partnered with research to translate findings into prioritized backlog items.</li>
+        <li>Researched Extended Kalman Filters and applied them to DVL and IMU sensor data.</li>
+        <li>Developed an HSV filtering pipeline with timed service requests for efficient object detection.</li>
+        <li>Reorganized the submarine electrical system, reducing motor power loss by 10x.</li>
       </ul>
 
-      <h3>Frontend Developer — Studio or Lab Name</h3>
-      <p class="section-note">Sep 2023 – May 2024</p>
+      <h3>Michigan Student AI Lab (MSAIL) — ML Discussion Leader</h3>
+      <p class="section-note">Jan 2024 – Present</p>
       <ul class="list-tight">
-        <li>Implemented responsive layouts with a focus on readability and consistent spacing.</li>
-        <li>Created reusable UI patterns and documented usage for future maintainers.</li>
-        <li>Collaborated with stakeholders to scope features and estimate delivery time.</li>
+        <li>Founded and led a weekly discussion on recent AI research with member presentations.</li>
+        <li>Built a multilayer perceptron from scratch for credit card fraud detection, achieving 99% accuracy.</li>
       </ul>
     </section>
 
     <section>
       <h2>Selected Projects</h2>
-      <h3><a href="projects/project-archive.html">Archive Viewer</a></h3>
-      <p>
-        A searchable, filterable interface for browsing long-form archives. Emphasis on hierarchy,
-        speed, and clarity for non-technical users.
-      </p>
+      <h3><a href="projects/project-gpt2.html">GPT-2 124M Model</a></h3>
+      <ul class="list-tight">
+        <li>Recreated OpenAI’s GPT-2 architecture using GPT-2/GPT-3 papers and Andrej Karpathy’s GPT series.</li>
+        <li>Built a multi-GPU training script on 8x H100s and achieved lower loss than the original GPT-2 124M run.</li>
+      </ul>
 
-      <h3><a href="projects/project-lab.html">Usability Lab</a></h3>
-      <p>
-        A research ops toolkit that standardizes session notes, consent tracking, and insight synthesis.
-        Built to help teams scale without losing context.
-      </p>
+      <h3><a href="projects/project-traffic.html">Multi-class Image Classification on GTSRB</a></h3>
+      <ul class="list-tight">
+        <li>Trained models to classify 43 traffic sign classes, reaching 84% accuracy with a DNN and 88% with a CNN.</li>
+        <li>Used OpenAI’s CLIP for zero-shot classification with synonym-based labels.</li>
+      </ul>
 
-      <h3><a href="projects/project-flow.html">Workflow Studio</a></h3>
-      <p>
-        A lightweight planning tool that models handoffs across roles. Focused on reducing the gap
-        between strategy and implementation.
-      </p>
+      <h3><a href="projects/project-backprop.html">Interpreter (C++)</a></h3>
+      <ul class="list-tight">
+        <li>Built a C++ interpreter with a focus on parsing, evaluation, and clear error reporting.</li>
+        <li>Designed a simple CLI for running scripts and inspecting output.</li>
+      </ul>
     </section>
 
     <section>
-      <h2>Skills</h2>
+      <h2>Technical Skills</h2>
       <div class="two-col">
         <div>
-          <h3>Design</h3>
+          <h3>Languages</h3>
           <ul class="list-tight">
-            <li>Wireframing, prototyping, design systems</li>
-            <li>Information architecture, service design</li>
-            <li>Usability testing, research synthesis</li>
+            <li>C/C++, Python, Java, Matlab, Julia</li>
+          </ul>
+          <h3>Frameworks</h3>
+          <ul class="list-tight">
+            <li>ROS/ROS2, GoogleTest, Pytest, Gazebo, CUDA</li>
           </ul>
         </div>
         <div>
-          <h3>Development</h3>
+          <h3>Developer Tools</h3>
           <ul class="list-tight">
-            <li>HTML, CSS, JavaScript</li>
-            <li>Responsive UI implementation</li>
-            <li>Accessibility and semantic markup</li>
+            <li>Git, Docker, VS Code, IntelliJ, CMake</li>
+          </ul>
+          <h3>Libraries</h3>
+          <ul class="list-tight">
+            <li>Pandas, NumPy, Matplotlib, TensorFlow, PyTorch, CLIP, OpenCV</li>
           </ul>
         </div>
       </div>
@@ -111,7 +124,7 @@
   </main>
 
   <footer>
-    This resume is written directly in HTML to match the rest of the site.
+    Resume content is maintained in HTML to match the site styling.
   </footer>
 </body>
 </html>

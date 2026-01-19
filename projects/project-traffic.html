@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Traffic Signs Classifier | Projects</title>
+  <link rel="stylesheet" href="../styles.css" />
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>Project: Traffic Signs Classifier</h1>
+      <div class="section-note">Multi-class image classification on the GTSRB dataset.</div>
+      <nav>
+        <a href="../index.html">About</a>
+        <span>/</span>
+        <a href="../resume.html">Resume</a>
+        <span>/</span>
+        <a href="index.html">Projects</a>
+        <span>/</span>
+        <a href="project-gpt2.html">Project: GPT-2 124M</a>
+        <span>/</span>
+        <a href="project-traffic.html">Project: Traffic Signs</a>
+        <span>/</span>
+        <a href="project-backprop.html">Project: Interpreter</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <div class="figure">
+      <img src="../GTRSB_classifications.png" alt="Sample traffic sign classifications from the GTSRB dataset." />
+    </div>
+
+    <section>
+      <h2>Overview</h2>
+      <p>
+        This project explores multi-class classification of 43 traffic sign categories using the
+        German Traffic Sign Recognition Benchmark. It compares classic deep neural networks with
+        convolutional architectures and zero-shot baselines.
+      </p>
+    </section>
+
+    <section>
+      <h2>Problem</h2>
+      <p>
+        Traffic sign recognition requires robust performance across lighting conditions, sign shapes,
+        and occlusions. The aim was to benchmark model choices and study accuracy tradeoffs.
+      </p>
+    </section>
+
+    <section>
+      <h2>Approach</h2>
+      <ul class="list-tight">
+        <li>Trained DNN and CNN models to classify 43 categories.</li>
+        <li>Reached 84% accuracy with a DNN and 88% with a CNN.</li>
+        <li>Applied OpenAI’s CLIP for zero-shot prediction with synonym labels.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Outcome</h2>
+      <p>
+        The comparison highlighted the benefits of convolutional feature extraction for image
+        classification. CLIP provided a useful zero-shot baseline for label exploration.
+      </p>
+    </section>
+
+    <section>
+      <h2>Tools</h2>
+      <p>Python, PyTorch, CLIP, dataset preprocessing and evaluation scripts.</p>
+    </section>
+
+    <section>
+      <h2>Links</h2>
+      <p><a href="https://github.com/alexanderbowler/TrafficSignsClassifier">GitHub Repository</a></p>
+    </section>
+
+    <section>
+      <h2>Related</h2>
+      <p>Listed in the <a href="../resume.html">resume</a> under selected projects.</p>
+    </section>
+  </main>
+
+  <footer>
+    Next project: <a href="project-backprop.html">Interpreter (C++)</a>
+  </footer>
+</body>
+</html>

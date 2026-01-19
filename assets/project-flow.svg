@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 500">
-  <rect width="800" height="500" fill="#f3efe6" />
-  <rect x="90" y="110" width="200" height="90" fill="#fefcf8" stroke="#b7ad9f" stroke-width="4" />
-  <rect x="310" y="210" width="200" height="90" fill="#fefcf8" stroke="#b7ad9f" stroke-width="4" />
-  <rect x="530" y="110" width="200" height="90" fill="#fefcf8" stroke="#b7ad9f" stroke-width="4" />
-  <path d="M290 155 L310 255" stroke="#2a4d69" stroke-width="5" />
-  <path d="M510 255 L530 155" stroke="#2a4d69" stroke-width="5" />
-  <text x="120" y="165" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#2a4d69">Input</text>
-  <text x="350" y="265" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#2a4d69">Process</text>
-  <text x="565" y="165" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#2a4d69">Output</text>
-  <text x="110" y="420" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#555">Workflow sketch</text>
+  <rect width="800" height="500" fill="#eef1f5" />
+  <rect x="90" y="110" width="200" height="90" fill="#f8f9fb" stroke="#9aa3ad" stroke-width="4" />
+  <rect x="310" y="210" width="200" height="90" fill="#f8f9fb" stroke="#9aa3ad" stroke-width="4" />
+  <rect x="530" y="110" width="200" height="90" fill="#f8f9fb" stroke="#9aa3ad" stroke-width="4" />
+  <path d="M290 155 L310 255" stroke="#2f4b66" stroke-width="5" />
+  <path d="M510 255 L530 155" stroke="#2f4b66" stroke-width="5" />
+  <text x="120" y="165" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#2f4b66">Input</text>
+  <text x="350" y="265" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#2f4b66">Process</text>
+  <text x="565" y="165" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#2f4b66">Output</text>
+  <text x="110" y="420" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#4a4f56">Training flow sketch</text>
 </svg>

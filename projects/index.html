@@ -3,14 +3,14 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Alex Bowler | Projects</title>
+  <title>Alexander Bowler | Projects</title>
   <link rel="stylesheet" href="../styles.css" />
 </head>
 <body>
   <header>
     <div class="wrap">
       <h1>Projects</h1>
-      <div class="section-note">Three focused projects that show range across research, design, and build.</div>
+      <div class="section-note">Selected work across ML systems, vision, and core engineering.</div>
       <nav>
         <a href="../index.html">About</a>
         <span>/</span>
@@ -18,55 +18,55 @@
         <span>/</span>
         <a href="index.html">Projects</a>
         <span>/</span>
-        <a href="project-archive.html">Project: Archive Viewer</a>
+        <a href="project-gpt2.html">Project: GPT-2 124M</a>
         <span>/</span>
-        <a href="project-lab.html">Project: Usability Lab</a>
+        <a href="project-traffic.html">Project: Traffic Signs</a>
         <span>/</span>
-        <a href="project-flow.html">Project: Workflow Studio</a>
+        <a href="project-backprop.html">Project: Interpreter</a>
       </nav>
     </div>
   </header>
 
   <main>
     <section class="card">
-      <h2><a href="project-archive.html">Archive Viewer</a></h2>
+      <h2><a href="project-gpt2.html">GPT-2 124M Model</a></h2>
       <p>
-        A public-facing archive interface that helps visitors explore thousands of items without losing
-        context. Built to emphasize hierarchy, searchability, and a calm reading experience.
+        A recreation of OpenAI’s GPT-2 124M architecture with multi-GPU training scripts and careful
+        loss tracking. The project explores training stability and scalable tooling.
       </p>
       <div class="figure">
-        <img src="../assets/project-archive.svg" alt="Archive Viewer project layout sketch." />
+        <img src="../transformer_architecture.png" alt="Transformer architecture diagram for the GPT-2 model." />
       </div>
-      <p class="section-note">Role: UX design, information architecture, front-end prototype.</p>
+      <p class="section-note">Code: <a href="https://github.com/alexanderbowler/GPT-2">github.com/alexanderbowler/GPT-2</a></p>
     </section>
 
     <section class="card">
-      <h2><a href="project-lab.html">Usability Lab</a></h2>
+      <h2><a href="project-traffic.html">Traffic Signs Classifier</a></h2>
       <p>
-        A toolkit for research teams to standardize consent, session notes, and insight tagging. The
-        focus was on repeatable workflows and minimal cognitive load.
+        Multi-class image classification on the German Traffic Sign Recognition Benchmark using
+        deep neural networks, CNNs, and zero-shot CLIP evaluation.
       </p>
       <div class="figure">
-        <img src="../assets/project-lab.svg" alt="Usability Lab diagram showing research flow." />
+        <img src="../GTRSB_classifications.png" alt="Sample traffic sign classifications from the GTSRB dataset." />
       </div>
-      <p class="section-note">Role: Research operations, UI design, documentation.</p>
+      <p class="section-note">Code: <a href="https://github.com/alexanderbowler/TrafficSignsClassifier">github.com/alexanderbowler/TrafficSignsClassifier</a></p>
     </section>
 
     <section class="card">
-      <h2><a href="project-flow.html">Workflow Studio</a></h2>
+      <h2><a href="project-backprop.html">Interpreter (C++)</a></h2>
       <p>
-        A lightweight planning tool that maps team handoffs from discovery to delivery. Designed to
-        keep everyone aligned with a shared vocabulary and timeline.
+        A C++ interpreter project focused on parsing, evaluation, and a usable command-line flow.
+        Built to deepen understanding of language tooling and runtime behavior.
       </p>
       <div class="figure">
-        <img src="../assets/project-flow.svg" alt="Workflow Studio process sketch." />
+        <img src="../assets/interpreter-cli.svg" alt="Command-line interface sketch for running scripts." />
       </div>
-      <p class="section-note">Role: Product strategy, interaction design, front-end build.</p>
+      <p class="section-note">Code: <a href="https://github.com/alexanderbowler/interpreter_cpp">github.com/alexanderbowler/interpreter_cpp</a></p>
     </section>
   </main>
 
   <footer>
-    Each project page expands on the problem, process, and outcome.
+    Each project page includes a concise overview, approach, and outcome.
   </footer>
 </body>
 </html>
