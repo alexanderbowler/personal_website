@@ -4,6 +4,6 @@
   <rect x="120" y="140" width="260" height="60" fill="#c7ced8" />
   <rect x="120" y="230" width="480" height="40" fill="#d7dde6" />
   <rect x="120" y="290" width="420" height="40" fill="#d7dde6" />
-  <text x="140" y="175" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="28" fill="#2f4b66">Traffic Signs</text>
+  <text x="140" y="175" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="28" fill="#2f4b66">Traffic Sign Classifier</text>
   <text x="120" y="365" font-family="Gill Sans, Trebuchet MS, sans-serif" font-size="22" fill="#4a4f56">Dataset summary sketch</text>
 </svg>
