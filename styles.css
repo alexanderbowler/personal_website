@@ -62,8 +62,7 @@ h3 {
 
 p {
   margin: 0 0 14px;
-  text-align: justify;
-  text-justify: inter-word;
+  text-align: left;
 }
 
 a {
@@ -132,7 +131,7 @@ nav span {
 
 .list-tight li {
   margin-bottom: 6px;
-  text-align: justify;
+  text-align: left;
 }
 
 .card {
