@@ -81,6 +81,10 @@ nav a {
   white-space: nowrap;
 }
 
+nav a.active {
+  font-weight: 700;
+}
+
 nav span {
   color: var(--muted);
   margin-right: 10px;
